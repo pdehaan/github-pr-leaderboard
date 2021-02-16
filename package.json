@@ -1,0 +1,19 @@
+{
+  "name": "octokit-experimenter-pr-leaderboard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index > leaderboard.json",
+    "leaderboard": "node leaderboard",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Peter deHaan <peter@deseloper.com> (https://about.me/peterdehaan)",
+  "license": "MPL-2.0",
+  "devDependencies": {},
+  "dependencies": {
+    "ms": "^2.1.3",
+    "@octokit/rest": "^18.1.1"
+  }
+}
